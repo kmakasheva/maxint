@@ -3,6 +3,8 @@ name: Go
 on:
   push:
     branches: ["new_workflow"]
+  pull-request:
+    branches: ["main"]
 
 jobs:
 
